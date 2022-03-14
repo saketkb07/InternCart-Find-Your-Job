@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background: wheat;
+    width: 1347px;
+    height: 100vh;
+}
+nav{
+    background: rgb(128, 4, 4);
+    text-align: center;
+    transform: translateY(30px);
+    border-radius: 500px;
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+nav ul li{
+    width: 120px;
+    margin-top: 10px;
+    padding: 15px;
+    inline-size: 120px;
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background: darkorange;
+    border-radius: 5px;
+}
+
+nav{
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+
+
+.img{
+    padding-left: 10px;
+    margin-top: 17px;
+    margin-right: 6px;
+}
+.title{
+    color: white;
+    margin-top: 20px;
+    font-size: 27px;
+}
+.fa{
+    margin-right: 50px;
+}
+
+/*sub--menu*/
+.submenu1{
+    display: none;
+}
+.row ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: rgb(128, 4, 4);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.row ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+    
+}
+.row ul li:hover .submenu1 ul li{
+border-bottom: 1px dotted white;
+}
+.row ul li:hover .submenu1 ul li:last-child{
+    border-bottom:none;
+}
+.row ul li:hover .submenu1 ul li a:hover{
+    color: black;
+}
+
+
+/*footer*/
+.footer{
+    margin-top: 81px;
+    background-color: black;
+    color: gray;
+    text-align: center;
+}
+
+/*content*/
+.correct-logo{
+    margin-left: 620px;
+    margin-top: 100px;
+}
+.title1{
+    color: black;
+    margin-top: 20px;
+    padding-left: 470px;
+    font-size: 25px;
+}
+.des{
+    padding-left: 300px;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+/*----icons--*/
+.icons{
+    margin-left: 580px;
+    margin-top: 10px;
+    
+    
+}
+.icons a{
+    color:red;
+    gap: 15px;
+}
+.icons ion-icon:hover{
+    color:orange;
+}
+.log-img{
+    margin-left: 520px;
+    margin-top: 15px;
+    display: inline-flex;
+    gap: 35px;
+}
+
